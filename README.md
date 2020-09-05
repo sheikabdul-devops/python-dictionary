@@ -9,9 +9,9 @@ Example :
 python python-dict.py '{"a":{"b":{"c":"d"}}}' 'a/b/c'
 "d"
 
-python python-dict1.py '{"a":{"b":{"c":"d"}}}' 'a/b'
+python python-dict.py '{"a":{"b":{"c":"d"}}}' 'a/b'
 {"c": "d"}
 
-python python-dict1.py '{"a":{"b":{"c":"d"}}}' 'a'
+python python-dict.py '{"a":{"b":{"c":"d"}}}' 'a'
 {"b": {"c": "d"}}
 
